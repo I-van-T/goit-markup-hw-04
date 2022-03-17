@@ -254,19 +254,19 @@ img {
 }
 
 .icon-antenna::before {
-  background-image: url(../images/antenna-icon.png);
+  background-image: url(../images/antenna-icon.svg);
 }
 
 .icon-clock::before {
-  background-image: url(../images/clock-icon.png);
+  background-image: url(../images/clock-icon.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../images/diagram-icon.png);
+  background-image: url(../images/diagram-icon.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../images/astronaut-icon.png);
+  background-image: url(../images/astronaut-icon.svg);
 }
 
 .benefits-item:last-child {
