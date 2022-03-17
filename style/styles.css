@@ -240,6 +240,34 @@ img {
   margin-right: 30px;
 }
 
+.benefits-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/antenna-icon.png);
+}
+
+.icon-clock::before {
+  background-image: url(../images/clock-icon.png);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/diagram-icon.png);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/astronaut-icon.png);
+}
+
 .benefits-item:last-child {
   margin: 0px;
 }
@@ -311,6 +339,7 @@ img {
   display: flex;
   align-items: center;
   margin-top: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .team-item {
