@@ -380,6 +380,31 @@ img {
   margin-top: 10px;
 }
 
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-item {
+  margin-right: 10px;
+}
+
+.social-item:last-child {
+  margin-right: 0px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: red;
+  border-radius: 50%;
+}
+
 /* Постоянные клиенты */
 
 .clients-title {
