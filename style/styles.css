@@ -250,33 +250,20 @@ svg {
   margin-right: 30px;
 }
 
-.benefits-item::before {
-  content: '';
-  display: block;
+.future {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   width: 270px;
   background-color: #f5f4fa;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 30px;
   border-radius: 4px;
 }
 
-.icon-antenna::before {
-  background-image: url(../images/antenna-icon.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/clock-icon.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/diagram-icon.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/astronaut-icon.svg);
+.benefits-icon {
+  width: 70px;
+  height: 70px;
 }
 
 .benefits-item:last-child {
