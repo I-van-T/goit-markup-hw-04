@@ -574,6 +574,11 @@ svg {
   padding-bottom: 60px;
 }
 
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-link {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -626,11 +631,6 @@ svg {
 }
 /* Присоединяйтесь */
 
-.connect-social {
-  display: flex;
-  margin-left: 70px;
-}
-
 .connect-title {
   font-family: var(--main-font);
   font-style: normal;
@@ -645,7 +645,6 @@ svg {
 .connect-list {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 16px;
 }
 
