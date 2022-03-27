@@ -322,7 +322,6 @@ svg {
 
 .team {
   background-color: #f5f4fa;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .team-title {
@@ -433,6 +432,8 @@ svg {
 }
 
 .clients-item {
+  width: 170px;
+  height: 92px;
   margin-right: 30px;
 }
 
@@ -441,26 +442,26 @@ svg {
 }
 
 .clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
 }
 
 .clients-link:hover,
 .clients-link:focus {
   fill: var(--active-color);
+  border: 1px solid var(--active-color);
 }
 
 .clients-icon {
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  padding: 16px 32px;
-}
-
-.clients-icon:hover,
-.clients-icon:focus {
-  border: 1px solid var(--active-color);
+  width: 106px;
+  height: 60px;
 }
 
 /* Портфолио */
@@ -480,6 +481,7 @@ svg {
 }
 
 .filtr-btn {
+  padding: 6px 22px;
   font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
@@ -502,6 +504,8 @@ svg {
   border-radius: 4px;
 }
 
+/* Ссылки портфолио */
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -515,9 +519,6 @@ svg {
   margin-right: 30px;
   margin-bottom: 30px;
   cursor: pointer;
-  /* border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee; */
 }
 
 .projects-item:nth-child(3n) {
@@ -528,8 +529,12 @@ svg {
   margin-bottom: 0px;
 }
 
-.projects-item:hover,
-.projects-item:focus {
+.projects-link {
+  display: block;
+}
+
+.projects-link:hover,
+.projects-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -575,8 +580,8 @@ svg {
 }
 
 .footer-flex {
+  align-items: baseline;
   display: flex;
-  flex-direction: column;
 }
 
 .footer-link {
@@ -630,6 +635,10 @@ svg {
   color: rgba(255, 255, 255, 0.6);
 }
 /* Присоединяйтесь */
+
+.footer-social {
+  margin-left: 70px;
+}
 
 .connect-title {
   font-family: var(--main-font);
